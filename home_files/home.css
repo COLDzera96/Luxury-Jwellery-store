@@ -1,0 +1,164 @@
+html{
+    font-family: cursive;
+}
+.header-main-container{
+  display: block;
+}
+article, aside, footer, header, nav, section {
+  display: block;
+}
+.max-width-large{
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+}
+.header-first-row{
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 3px solid yellow;
+    align-items: flex-start;
+    
+}
+.uppr-div-1st-box{
+    display:flex;
+    border: 2px solid blue;
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+}
+
+
+/*UNDERLINE EFFECT ON LINK TAGS */
+a {
+    text-decoration: none; /* Remove default underline */
+    color: inherit; /* Inherit color from parent element */
+    position: relative; /* Required for pseudo-element positioning */
+  }
+  
+  a::after {
+    content: ''; /* Create pseudo-element */
+    position: absolute; /* Position relative to anchor text */
+    bottom: -1px; /* Position underline below text */
+    left: 0; /* Align underline with left edge of text */
+    width: 0; /* Initial width of underline (no width) */
+    height: 1px; /* Height of underline */
+    background-color: #000; /* Color of underline */
+    transition: width 0.3s ease; /* Transition effect for width change */
+  }
+  
+  a:hover {
+    opacity: 0.6; /* Reduce opacity on hover */
+  }
+  
+  a:hover::after {
+    width: 100%; /* Expand width of underline on hover */
+  }
+  
+.US-change{
+    font-family:cursive;
+    font-style: italic;
+    color: black;
+    background-position: 0 100%;
+    
+    
+    padding: 0.5rem;
+
+}
+.contact-us{
+  padding: 0.5rem;
+}
+.Services{
+  padding:0.5rem;
+}
+.extra{
+  padding-bottom: 0.9rem;
+}
+.Mangata-home{
+  border: 3px solid green;
+}
+.logo-box{
+  border: 3px solid red;
+    
+}
+.wish-list{
+  margin-right: 1.125rem;
+}
+.locate{
+  margin-right: 1.125rem;
+}
+.uppr-div-3rd-box{
+  display: flex;
+  justify-content: flex-end;
+  border: 3px solid brown;
+  flex-basis: 30%;
+    max-width: 30%;
+    
+}
+.header-2nd-row{
+  display: flex;
+  /*justify-content: flex-end;*/
+}
+.header-2nd-row-1st-boxITEM{
+  display: flex;
+}
+.NavList{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem; /*or 24px*/
+  flex-wrap: wrap;
+}
+.Rings,.earrings,.Bracelets,.Solitaires,.Jwellery{
+  display: inline-block;
+  color: #4F3267;
+  font-size:large;
+}
+.header-2nd-row-2nd-boxITEM{
+   display: flex;
+   
+   align-items: center;
+   border: 2px solid;
+   margin-left: 100px;
+}
+.part1-SearchBar{
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid;
+
+}
+
+.icon-search{
+  padding: 0.1rem;
+  
+}
+.searchbox{
+  border: 2px solid;
+  flex: 1;
+}
+.searchbutton{
+  color: white;
+  background: grey;
+  padding: 0.1rem;
+  border-radius: 8px;
+
+}
+.searchbutton:active{
+  background: #4904d4;
+  transform: scale(1.09); /*makes the go button interactive*/
+}
+.zip-code-dropdown-type{
+  display: flex;;
+}
+.zip-zip{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.zip-code-dropdown-type{
+  margin-left: 50px;;
+}
+.Zipper{
+  padding-bottom: 15px;
+}
+
